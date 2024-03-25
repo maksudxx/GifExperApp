@@ -1,0 +1,33 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  overflow: hidden;
+}
+
+.cardImg {
+  width: 100%;
+  height: auto;
+}
+
+.CardTitle {
+  height: 25px;
+  text-align: center;
+  padding: 10px 0;
+  font-family: "Germania One", system-ui;
+  font-weight: 700;
+  background: #dcdcdc;
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  .CardTitle {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .CardTitle {
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,84 @@
+.containerHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-family: "Germania One", system-ui;
+  font-weight: 800;
+  color: #000;
+  letter-spacing: 0.1cap;
+  font-size: 3.2rem;
+  text-shadow: -1px -1px 0 #ff0000, 1px -1px 0 #ff0000, -1px 1px 0 #ff0000;
+  margin: 20px 0;
+}
+
+.formContainer {
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+  flex-direction: column;
+}
+
+.inputSearch {
+  width: 40vw;
+  height: 5vh;
+  border: 2px solid #ff0000;
+  border-radius: 8px;
+  display: flex;
+}
+
+.inputSearch::placeholder {
+  padding-left: 10px;
+}
+
+.inputSubmit{
+    height: 6vh;
+    width: 10vw;
+    background: #303134;
+    color: #fff;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+}
+
+.inputSubmit:hover{
+    cursor: pointer;
+    background: #f2f2f2;
+    color: #303134;
+}
+
+@media  (max-width: 600px) {
+  .title{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 15px 0;
+  }
+  .formContainer {
+    width: 90vw;
+  }
+  .inputSearch {
+    width: 80%;
+  }
+  .inputSubmit{
+    height: 6vh;
+    width: 15vw;
+  }
+}
+
+@media  (max-width: 400px) {
+  .title{
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 10px 0;
+  }
+  .inputSubmit{
+    width: 20vw;
+  }
+}
