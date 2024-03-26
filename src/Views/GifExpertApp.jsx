@@ -1,8 +1,6 @@
 import { useState } from "react";
-import { AddCategory } from "../components/AddCategory/AddCategory";
-import { GifGrid } from "../components/GifGrid/GifGrid";
+import { AddCategory, GifGrid, Footer } from "../components";
 import styles from "./GifExpertApp.module.css";
-import { Footer } from "../components/Footer/Footer";
 
 export const GifExpertApp = () => {
   const [categories, setcategories] = useState([]);
