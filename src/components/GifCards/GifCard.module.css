@@ -3,11 +3,13 @@
   flex-direction: column;
   width: 200px;
   overflow: hidden;
+  
 }
 
 .cardImg {
   width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 
 .CardTitle {
